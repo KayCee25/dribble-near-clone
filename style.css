@@ -1,16 +1,14 @@
 
 .body{
     width: 100%;
-    height: 100%;
-    
+    height: 100%;    
     font-family: 'Fira Sans', sans-serif;
-    /* font-family: 'Pacifico', cursive; */
+   
 }
 
 .container{
     width: 100%;
-    height: 100%;
-    
+    height: 100%;   
 }
 
 .header {
@@ -19,8 +17,6 @@
     padding: 20px;
     justify-content: space-between;
     align-items: center;
-    /* margin-left: 5px; */
-
 }
 .middle{
     display: flex;
@@ -71,15 +67,12 @@ a {
 .head2 a {
     font-size: 30px;
     color: white;
-    /* display: inline-block; */
     padding: 10px 12px;
     background: #ea4c89;
     border-radius: 8px;
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
-  
-    /* height: px; */
     box-sizing: border-box;
     
 }
@@ -122,9 +115,39 @@ p{
     color: white;
 }
 
-img{
-    margin-left: 60%;
-    margin-top: -360px;
-    height: 99%;    
+.img2{
+    margin-left: 73%;
+    margin-top: -320px;
+    height: 200%;    
     width: 40%;
 }
+
+.list {
+    display: flex;
+    justify-content: space-between; 
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.list button {
+    height: 30px;
+    width: 100px;
+}
+
+.list ul {
+    display: flex;
+}
+
+.list ul a  {
+    text-decoration: none;
+    color: black;
+}
+ .img2-list{
+    display: flexbox;
+    padding: 30px;
+    top: 50px;
+    box-sizing: border-box;
+    background: whitesmoke;
+    transition: 10.5s;
+}
+
